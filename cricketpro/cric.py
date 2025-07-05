@@ -27,15 +27,16 @@ def load_csv(name):
     return pd.read_csv(name, index_col=0)
 
 with st.spinner("Loading data..."):
-    batting = load_csv('batting_stats.csv')
-    bowling = load_csv('bowling_stats.csv')
-    allrounders = load_csv('allrounder_stats.csv')
-    elite_batters = load_csv('elite_batters.csv')
-    elite_bowlers = load_csv('elite_bowlers.csv')
-    elite_allrounders = load_csv('elite_allrounders.csv')
-    elo_batting_hist = pd.read_csv('elo_history_batting.csv')
-    elo_bowling_hist = pd.read_csv('elo_history_bowling.csv')
-    fielding_stats = load_csv('fielding_stats.csv')
+    batting = load_csv('cricketpro/batting_stats.csv')
+bowling = load_csv('cricketpro/bowling_stats.csv')
+allrounders = load_csv('cricketpro/allrounder_stats.csv')
+elite_batters = load_csv('cricketpro/elite_batters.csv')
+elite_bowlers = load_csv('cricketpro/elite_bowlers.csv')
+elite_allrounders = load_csv('cricketpro/elite_allrounders.csv')
+elo_batting_hist = pd.read_csv('cricketpro/elo_history_batting.csv')
+elo_bowling_hist = pd.read_csv('cricketpro/elo_history_bowling.csv')
+fielding_stats = load_csv('cricketpro/fielding_stats.csv')
+
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "Batters", "Bowlers", "All-Rounders", "Player Details", "Compare Players", "Top 20 Elo Progression"
