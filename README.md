@@ -73,4 +73,3 @@ All major components are modular and thoroughly tested.
 
 **Enjoy exploring advanced T20 cricket analytics!**
 
-[1] preferences.code_quality
