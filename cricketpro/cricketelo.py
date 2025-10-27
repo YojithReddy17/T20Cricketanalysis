@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 
+## Need to be changed according to the the file location.
 league_folders = [
     ('C:/Users/Yojit/Downloads/ipl_male_json', 'IPL'),
     ('C:/Users/Yojit/Downloads/bbl_male_json', 'BBL'),
