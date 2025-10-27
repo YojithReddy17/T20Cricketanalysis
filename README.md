@@ -65,11 +65,3 @@ streamlit run cric.py
 
 - Python 3.8+
 - pandas, numpy, streamlit, plotly
-
-## Code Quality
-
-This project is designed with a strong focus on code structure, error handling, and maintainability[1].  
-All major components are modular and thoroughly tested.
-
-**Enjoy exploring advanced T20 cricket analytics!**
-
