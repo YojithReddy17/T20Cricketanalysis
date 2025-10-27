@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import numpy as np
 
-# --- Step 1: Set up your folders (adjust as needed, use forward slashes for Windows) ---
 league_folders = [
     ('C:/Users/Yojit/Downloads/ipl_male_json', 'IPL'),
     ('C:/Users/Yojit/Downloads/bbl_male_json', 'BBL'),
@@ -16,7 +15,7 @@ league_folders = [
 ]
 
 def extract_fielder_names(fielders):
-    # Handles list of dicts (with "name") or list of strings
+    
     names = []
     if isinstance(fielders, list):
         for f in fielders:
