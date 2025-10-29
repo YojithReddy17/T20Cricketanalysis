@@ -65,3 +65,5 @@ streamlit run cric.py
 
 - Python 3.8+
 - pandas, numpy, streamlit, plotly
+
+**for the initial json files they can be downloaded from this https://cricsheet.org/downloads/  site in json format**
